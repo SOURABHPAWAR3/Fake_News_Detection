@@ -27,23 +27,3 @@ Detect whether a news headline is **REAL** or **FAKE** using Natural Language Pr
 | Deployment    | Streamlit Cloud              |
 
 ---
-
-## 📁 Project Structure
-FakeNewsDetection/
-├── app.py # Streamlit main app
-├── newsapi_utils.py # Fetch headlines via NewsAPI
-├── preprocess.py # Clean and process text
-├── models/
-│ ├── logistic_model.pkl
-│ └── tfidf_vectorizer.pkl
-├── data/
-│ ├── True.csv
-│ └── Fake.csv
-├── .env # [Not pushed] contains NewsAPI key
-├── .gitignore
-├── requirements.txt
-└── README.md
-
-
-
-
